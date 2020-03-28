@@ -1,12 +1,10 @@
 import React from 'react';
 import * as d3 from 'd3';
-import COUNTRIES from '../../service/countries';
-
-console.log(COUNTRIES);
+import Countries from '../../service/countries';
 
 const Graphics = () => (
     <div>
-        Funziona
+        <Countries />
     </div>
 );
 
